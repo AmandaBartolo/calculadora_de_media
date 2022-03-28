@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="_css/css.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page_title">Calculadora de média</h1>
+        <p class="page_subtitle">Descubra a média das suas notas!</p>
+    </div>
+
+    <div id="formulario">
+        <div class="form_group">
+            <label for="nota1">Nota do 1º bimestre</label>
+            <input type="number" class="nota_config" id="n1" min="0.0" max="10.0" step="0.1">
+        </div>
+        <div class="form_group">
+            <label for="nota2">Nota do 2º bimestre</label>
+            <input type="number" class="nota_config" id="n2" min="0.0" max="10.0" step="0.1">
+        </div>
+        <div class="form_group">
+            <label for="nota3">Nota do 3º bimestre</label>
+            <input type="number" class="nota_config" id="n3" min="0.0" max="10.0" step="0.1">
+        </div>
+        <div class="form_group">
+            <label for="nota4">Nota do 4º bimestre</label>
+            <input type="number" class="nota_config" id="n4" min="0.0" max="10.0" step="0.1">
+        </div>
+        <div class="form_group">
+            <button type="submit" class="botao" id="botao">Calcular</button>
+        </div> 
+        <p id="resultado"></p>
+    </div>
+
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page_logo">
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" class="alura_logo">
+    </a>
+<script src='_javascript/js.js'></script>
+</body>
+</html>
