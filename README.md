@@ -13,6 +13,9 @@
 # O projeto
 Nessa calculadora você adiciona as 4 notas dos 4 bimestres do ano e ela mostra como resultado a média final das notas. 
 
+# Link do projeto
+https://amandabartolo.github.io/calculadora_de_media/
+
 # Tecnologias utilizadas
 * HTML
 * CSS
